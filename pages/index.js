@@ -19,12 +19,9 @@ export default function Home({ posts }) {
           <div className={styles.logos}>
           <img src="/icon.svg" alt="personality"/>
           </div>
-          <h1>Yeshvant Bhavnasi</h1>
+          <h1 class="title">Yeshvant Bhavnasi</h1>
           <p>
-            List of projects I am working on.
-            My reading and thoughts.
-            My tips and tricks.
-            About System engineering 
+            List of projects I am working on, my reading and thoughts, about system engineering 
           </p>
         </header>
 
