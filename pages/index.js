@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <title>Notion Next.js blog</title>
+        <title>Yeshvant Bhavnasi blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -47,20 +47,12 @@ export default function Home({ posts }) {
               </g>
             </svg>
           </div>
-          <h1>Next.js blog powered by Notion API</h1>
+          <h1>Yeshvant Bhavnasi</h1>
           <p>
-            This is an example of a Next.js blog with data fetched with Notions
-            API. The data comes from{" "}
-            <a href={`https://www.notion.so/${databaseId}`}>this table</a>. Get
-            the source code on{" "}
-            <a href="https://github.com/samuelkraft/notion-blog-nextjs">
-              Github
-            </a>{" "}
-            or read{" "}
-            <a href="https://samuelkraft.com/blog/building-a-notion-blog-with-public-api">
-              my blogpost
-            </a>{" "}
-            on building your own.
+            List of projects I am working on.
+            My reading and thoughts.
+            My tips and tricks.
+            About System engineering 
           </p>
         </header>
 
