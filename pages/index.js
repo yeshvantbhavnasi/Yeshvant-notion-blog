@@ -16,9 +16,6 @@ export default function Home({ posts }) {
 
       <main className={styles.container}>
         <header className={styles.header}>
-          <div className={styles.logos}>
-          <img src="/icon.svg" alt="personality"/>
-          </div>
           <h1 class="title">Yeshvant Bhavnasi</h1>
           <p>
             List of projects I am working on, my reading and thoughts, about system engineering 
