@@ -21,7 +21,17 @@ export default function Home({ posts }) {
             List of projects I am working on, my reading and thoughts, about system engineering 
           </p>
         </header>
-
+            <nav class="nav">
+        <div class="nav__left">
+            <a href="/">home</a>
+        </div>
+        <div class="nav__right">
+            <a target="_blank" href="https://www.youtube.com/channel/UCUAQrUfucbv8VQTRyL3wZvg/featured"
+                class="link-medium">youtube</a>
+            <a target="_blank" href="https://medium.com/@yeshvantbhavnas" class="link-medium">medium</a>
+            <a target="_blank" href="https://twitter.com/yeshvantbhavnas" class="link-medium">twitter</a>
+            </div>
+        </nav>
         <h2 className={styles.heading}>All Posts</h2>
         <ol className={styles.posts}>
           {posts.map((post) => {
