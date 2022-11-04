@@ -14,14 +14,7 @@ export default function Home({ posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.container}>
-        <header className={styles.header}>
-          <h1 class="title">Yeshvant Bhavnasi</h1>
-          <p>
-            List of projects I am working on, my reading and thoughts, about system engineering 
-          </p>
-        </header>
-            <nav class="nav">
+      <nav class="nav">
         <div class="nav__left">
             <a href="/">home</a>
         </div>
@@ -32,6 +25,13 @@ export default function Home({ posts }) {
             <a target="_blank" href="https://twitter.com/yeshvantbhavnas" class="link-medium">twitter</a>
             </div>
         </nav>
+      <main className={styles.container}>
+        <header className={styles.header}>
+          <h1 class="title">Yeshvant Bhavnasi</h1>
+        </header>
+         <p>
+            List of projects I am working on, research, about system design and software engineering and thoughts
+          </p>
         <h2 className={styles.heading}>All Posts</h2>
         <ol className={styles.posts}>
           {posts.map((post) => {
