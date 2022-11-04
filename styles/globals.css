@@ -9,8 +9,8 @@ body {
 }
 
 body {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,7 +35,7 @@ h1 {
 
 .title {
   margin: 0.67em 0;
-  color: #454a79;
+  color: #89CFF0;
   font-size: 1.75rem;
   font-weight: 700;
   text-align: center;
