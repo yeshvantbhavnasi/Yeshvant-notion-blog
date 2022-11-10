@@ -95,7 +95,7 @@
   margin-bottom: 10px;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   .code {
     background-color: rgb(15, 8, 28);
   }
