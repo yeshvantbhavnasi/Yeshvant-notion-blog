@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <title>Yeshvant Bhavnasi blog</title>
+        <title>Yeshvant Bhavnasi's blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -30,7 +30,7 @@ export default function Home({ posts }) {
           <h1 class="title">Yeshvant Bhavnasi</h1>
         </header>
          <p>
-            List of projects I am working on, research, about system design and software engineering and thoughts
+            List of projects I am working on, research, about system design and software engineering and thoughts.
           </p>
         <h2 className={styles.heading}>All Posts</h2>
         <ol className={styles.posts}>
