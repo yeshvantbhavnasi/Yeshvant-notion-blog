@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <title>Yeshvant Bhavnasi's blog</title>
+        <title>Yeshvant Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -27,7 +27,7 @@ export default function Home({ posts }) {
         </nav>
       <main className={styles.container}>
         <header className={styles.header}>
-          <h1 class="title">Yeshvant Bhavnasi</h1>
+          <h1 class="title"> >Yeshvant Bhavnasi</h1>
         </header>
          <p>
             List of projects I am working on, research, about system design and software engineering and thoughts.
